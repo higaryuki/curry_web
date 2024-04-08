@@ -1,0 +1,35 @@
+.center {
+  text-align:center;
+}
+
+.back_beige{
+    background-color: beige;
+}
+
+.img{
+    border:double 10px red;
+}
+
+.back {
+    background-image: url(images/bg_Argyle.jpg);
+}
+
+.f_red{
+    color: red;
+}
+
+.b_red{
+    border-color: red;
+}
+
+.left{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+table{
+    width: 225px;
+}
