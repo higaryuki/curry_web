@@ -1,0 +1,21 @@
+.back {
+    background-image: url(images/bg_Argyle.jpg);
+}
+
+h1{
+    text-align: center;
+}
+
+.center {
+    text-align:center;
+  }
+
+ .back2{
+    border:20px;
+    border-color: pink;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-right: 25%;
+    margin-left: 25%;
+ }

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>入力フォーム</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body class="back">
+    <p><h1>質問・感想フォーム</h1></p>
+    <div class="center back2">
+    
+        <form action="form.html">
+
+            <!--指名入力-->
+              <p class="center"><label for="name">氏名</label></p>
+              <input type="text" id="name" name="name">
+
+            <!--性別選択-->
+                <p class="center"><label>性別</label></p>
+                <label>
+                  <input type="radio" name="sei" value="male" checked>男
+                </label>
+                <label>
+                  <input type="radio" name="sei" value="female">女
+                </label>
+
+            <!--年齢選択-->
+                <p>年齢</p>
+                <p><select id="age" name="age"></p>
+                <option value="0"selected>10代</option>
+                <option value="1" >20代</option>
+                <option value="2">30代</option>
+                <option value="3">40代以上</option>
+                </select>
+
+            <!--今後見てみたいレシピ-->
+                <p>今後見てみたいレシピ</p>
+                <label>
+                <input type="checkbox" name="recipe" value="wasyoku">和食
+                </label>
+                <label>
+                <input type="checkbox" name="recipe" value="tyuka">中華
+                </label>
+                <label>
+                <input type="checkbox" name="recipe" value="Italy">イタリアン
+                </label>
+                <label>
+                <input type="checkbox" name="recipe" value="sweet">スイーツ
+                </label>
+                <label>
+                <input type="checkbox" name="recipe" value="another">その他
+                </label>
+
+            <!--自由コメント欄-->
+                <p><label for="message">自由コメント欄</label></p>
+                <textarea id="message" name="message">自由に意見を記述してください</textarea>
+
+            <!--送信　取り消し-->
+            <p>
+                <button type="submit">送信</button>
+                <button type="reset">取り消し</button></p>   
+            </div>
+</form>
+
+
+</body>
+</html>
